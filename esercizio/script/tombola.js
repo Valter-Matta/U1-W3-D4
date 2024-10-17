@@ -31,7 +31,6 @@ const pushInGriglia = function () {
       for (let j = 0; j < numeriEstratti.length; j++) {
         if (extractNum === parseInt(numLucky[i].innerText)) {
           div[i].classList.add('extract')
-
           // console.log(div[i])
         }
       }
